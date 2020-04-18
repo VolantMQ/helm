@@ -1,6 +1,6 @@
 apiVersion: v2
 name: volantmq
-version: 0.1.0
+version: 0.1.1-alpha.1
 appVersion: "dev"
 description: VolantMQ mqtt broker
 keywords:
@@ -11,8 +11,9 @@ sources:
 - https://github.com/VolantMQ/helm
 - https://github.com/VolantMQ/volantmq
 icon: https://avatars2.githubusercontent.com/u/30122488
+home: https://github.com/VolantMQ/helm
 maintainers:
-  - name: Ante Gulin
+  - name: 4nte
     email: gnante0@gmail.com
   - name: saikatharryc
     email: saikatchakrabortty2@gmail.com
