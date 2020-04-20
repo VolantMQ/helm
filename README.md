@@ -1,6 +1,6 @@
 # The VolantMQ Library for Kubernetes
 
-Popular applications, provided by [VolantMQ](https://volantmq.io), ready to launch on Kubernetes using [Kubernetes Helm](https://github.com/helm/helm).
+All the charts here provided by [VolantMQ](https://volantmq.io), ready to launch on Kubernetes using [Kubernetes Helm](https://github.com/helm/helm).
 
 ## TL;DR
 

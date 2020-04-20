@@ -11,7 +11,7 @@ VolantMQ helm chart
 
 ## Installing the Chart
 
-> **NOTE:** You need to [add the helm repository](/#TL;DR) to perform the below steps.
+> **NOTE:** You need to [add the helm repository](/README.md#tldr) to perform the below steps.
 
 To install the chart with the release name `my-release`:
 
