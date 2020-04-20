@@ -40,3 +40,6 @@ Useful Helm Client Commands:
 
 ### Available Charts:
    - [VolantMQ](/charts/volantmq)
+
+
+For any kind of help/issue, please raise [here](https://github.com/VolantMQ/helm/issues).

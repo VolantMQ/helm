@@ -87,3 +87,8 @@ The command removes all the Kubernetes components associated with the chart and 
 | testFramework.securityContext | object | `{}` | define securityContext object if any |
 | testFramework.tag | string | `"v1.1.0"` | Image Tag for the test framework |
 
+
+>*This points were kept in mind while creating the chart. and not tested for this specific versions. 
+We have only tested the version with latest Helm (v3) and kubernetes (eks 1.17)
+
+For any kind of help/issue, please raise [here](https://github.com/VolantMQ/helm/issues).
