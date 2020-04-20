@@ -1,0 +1,27 @@
+apiVersion: v1
+entries:
+  volantmq:
+  - apiVersion: v2
+    appVersion: dev
+    created: "2020-04-20T15:11:05.237873656Z"
+    description: VolantMQ mqtt broker
+    digest: cf2f8ea4cffec0e732e42e4fa8f0be4501f3a408402e0a862ae0424265d7475e
+    home: https://github.com/VolantMQ/helm
+    icon: https://avatars2.githubusercontent.com/u/30122488
+    keywords:
+    - mqtt
+    - volantmq
+    - mqtt-broker
+    maintainers:
+    - email: gnante0@gmail.com
+      name: 4nte
+    - email: saikatchakrabortty2@gmail.com
+      name: saikatharryc
+    name: volantmq
+    sources:
+    - https://github.com/VolantMQ/helm
+    - https://github.com/VolantMQ/volantmq
+    urls:
+    - https://github.com/VolantMQ/helm/releases/download/volantmq-0.1.2/volantmq-0.1.2.tgz
+    version: 0.1.2
+generated: "2020-04-20T15:11:05.111702573Z"
