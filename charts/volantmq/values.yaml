@@ -5,11 +5,11 @@
 image:
   # image.registry -- URL to registry
   registry: docker.io
-  # image.repository -- Image repository name 
+  # image.repository -- Image repository name
   repository: volantmq/volantmq
-  # image.tag -- Image repository tag 
+  # image.tag -- Image repository tag
   tag: v0.4.0-rc.6
-  # image.pullPolicy -- Image repository pull policy 
+  # image.pullPolicy -- Image repository pull policy
   pullPolicy: IfNotPresent
 
 ## Service configuration
@@ -53,7 +53,7 @@ metrics:
     namespace: prometheus
     # metrics.serviceMonitor.interval -- fallback to the prometheus default unless specified
     interval: 3s
-    # metrics.serviceMonitor.scrapeTimeout -- scrapeTimeout 
+    # metrics.serviceMonitor.scrapeTimeout -- scrapeTimeout
     # scrapeTimeout: 10s
 
     selector:
@@ -102,17 +102,17 @@ readinessProbe:
   enable: true
   # readinessProbe.interval -- Readiness check interval
   interval: 60
-  # readinessProbe.timeout --  Define custom timeout 
+  # readinessProbe.timeout --  Define custom timeout
   timeout: 3
   # readinessProbe.initialDelay -- Intial Delay to take in account
   initialDelay: 30
-  
+
 livenessProbe:
   # livenessProbe.enable -- Enabling Readiness Probe
   enable: false
   # livenessProbe.initialDelay -- Intial Delay to take in account
   initialDelay: 30
-  # livenessProbe.timeout --  Define custom timeout 
+  # livenessProbe.timeout --  Define custom timeout
   timeout: 1
 
 ingress:
@@ -184,4 +184,3 @@ config: |
       maxPacketSize: 268435455
       maxTopicAlias: 65535
       maxQoS: 2
-
