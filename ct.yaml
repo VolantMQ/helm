@@ -1,4 +1,4 @@
 remote: origin
-target-branch: mvp
+target-branch: master
 chart-dirs:
   - charts
