@@ -2,8 +2,6 @@ VolantMQ helm chart
 ========
 VolantMQ mqtt broker
 
-Current chart version is `0.1.0`
-
 ## Chart Values
 
 | Key | Type | Default | Description |
