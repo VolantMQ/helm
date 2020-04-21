@@ -1,7 +1,7 @@
 apiVersion: v2
 name: volantmq
-version: 0.1.2
-appVersion: "dev"
+version: 0.1.3
+appVersion: 0.4.0
 description: VolantMQ mqtt broker
 keywords:
 - mqtt
