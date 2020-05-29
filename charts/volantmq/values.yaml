@@ -8,7 +8,7 @@ image:
   # image.repository -- Image repository name
   repository: volantmq/volantmq
   # image.tag -- Image repository tag
-  tag: v0.4.0-rc.6
+  tag: v0.4.0-rc.8
   # image.pullPolicy -- Image repository pull policy
   pullPolicy: IfNotPresent
 
